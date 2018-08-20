@@ -68,13 +68,13 @@ export const appRouter = [
                 title: 'instances',
                 component: resolve => { require(['@/views/mysql/instances/instances.vue'], resolve); }
             },
-            {
-                path: 'history',
-                icon: 'ios-list-outline',
-                name: 'history',
-                title: '上线记录',
-                component: resolve => { require(['@/views/mysql/history/history.vue'], resolve); }
-            },
+            // {
+            //     path: 'history',
+            //     icon: 'ios-list-outline',
+            //     name: 'history',
+            //     title: '上线记录',
+            //     component: resolve => { require(['@/views/mysql/history/history.vue'], resolve); }
+            // },
 
         ]
     },

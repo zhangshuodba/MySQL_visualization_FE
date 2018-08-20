@@ -31,23 +31,16 @@
       </Col>
     </Row>
 
-<br>
-<br>
-<br>
-
 <Row>
-  <br>
-<br>
-<br>
-        <Col span="12">
+        <!-- <Col span="12">
       <VmtableSpace></VmtableSpace>
-      </Col>
-<br>
+      </Col> -->
+<!-- <br>
 <br>
 <br>
       <Col span="12">
       <Vminnodbstatus></Vminnodbstatus>
-      </Col>
+      </Col> -->
   </Row>
 
 

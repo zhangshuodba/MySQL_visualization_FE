@@ -176,25 +176,25 @@
 
       renderOperate: function (h, params) {
         return h('div', [
-          h('Button', {
-            props: {
-              type: 'info',
-              size: 'small'
-            },
-            style: {
-              marginRight: '5px'
-            },
-            on: {
-              click: () => {
-                this.$router.push({
-                  name:"submit",
-                  params:{
-                    dbinfo:params.row
-                  }
-                })
-              }
-            }
-          }, '上线'),
+          // h('Button', {
+          //   props: {
+          //     type: 'info',
+          //     size: 'small'
+          //   },
+          //   style: {
+          //     marginRight: '5px'
+          //   },
+          //   on: {
+          //     click: () => {
+          //       this.$router.push({
+          //         name:"submit",
+          //         params:{
+          //           dbinfo:params.row
+          //         }
+          //       })
+          //     }
+          //   }
+          // }, '上线'),
 
           h('Button', {
             props: {

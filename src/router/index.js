@@ -20,8 +20,7 @@ router.beforeEach((to,from,next) =>{
       next();
     }
     else{
-        next()
-        // next('/login');
+        next('/login');
       }
 
   })
