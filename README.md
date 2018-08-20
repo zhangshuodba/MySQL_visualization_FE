@@ -15,7 +15,6 @@
 
 ## Install
 ```bush
-// install dependencies
 npm install
 ```
 ## Run
@@ -34,7 +33,6 @@ npm run build
 ├── build  项目构建配置
 └── src
     ├── images  图片文件
-    ├── libs  工具方法
     ├── router  路由配置
     ├── store  状态管理
     ├── styles  样式文件
@@ -42,20 +40,11 @@ npm run build
     ├── vendors  公共库文件
     └── views
         ├── error-page  错误页面
-        ├── group  带二级目录的页面
-        │   ├── page1  二级页面1
-        │   ├── page2  二级页面2
         ├── home  首页
         ├── main-components  主组件
+        ├── mysql  数据库状态展示组件
         ├── page  一级目录页面
 ```
-
-## Links
-
-- [TalkingData](https://github.com/TalkingData)
-- [iView](https://github.com/iview/iview)
-- [Vue](https://github.com/vuejs/vue)
-- [Webpack](https://github.com/webpack/webpack)
 
 ## 效果展示
 
