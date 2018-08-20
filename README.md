@@ -48,13 +48,14 @@ npm run build
 
 ## 效果展示
 
-- 首页
-![image](https://github.com/iview/iview-admin/raw/template/pic/home.png)
+- 登陆页
+![image](https://github.com/zhangshuodba/MySQL_visualization_FE/tree/master/src/images/login.png)
 
-- 单页
-![image](https://github.com/iview/iview-admin/raw/template/pic/page.png)
+- 会话页
+![image](https://github.com/zhangshuodba/MySQL_visualization_FE/tree/master/src/images/session.png)
+
+- 数据展示页
+![image](https://github.com/zhangshuodba/MySQL_visualization_FE/tree/master/src/images/dbspace.png)
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2016-present, iView

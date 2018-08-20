@@ -40,7 +40,7 @@ const myChart = require('echarts-gl/dist/echarts-gl.js')
 
 
    title : {
-        text: '南丁格尔玫瑰图',
+        text: '数据库空间占用图',
         subtext: '纯属虚构',
         x:'center'
     },
@@ -51,7 +51,7 @@ const myChart = require('echarts-gl/dist/echarts-gl.js')
     legend: {
         x : 'center',
         y : 'bottom',
-        data:['rose1','rose2','rose3','rose4','rose5','rose6','rose7','rose8']
+        data:['mysql','test','inception','slow','performance_schema','sys','information_schema','zabbix']
     },
     toolbox: {
         show : true,
@@ -91,14 +91,14 @@ const myChart = require('echarts-gl/dist/echarts-gl.js')
                 }
             },
             data:[
-                {value:10, name:'rose1'},
-                {value:5, name:'rose2'},
-                {value:15, name:'rose3'},
-                {value:25, name:'rose4'},
-                {value:20, name:'rose5'},
-                {value:35, name:'rose6'},
-                {value:30, name:'rose7'},
-                {value:40, name:'rose8'}
+                {value:10, name:'mysql'},
+                {value:5, name:'information_schema'},
+                {value:15, name:'performance_schema'},
+                {value:25, name:'sys'},
+                {value:20, name:'inception'},
+                {value:35, name:'slow'},
+                {value:30, name:'test'},
+                {value:40, name:'zabbix'}
             ]
         },
         {
@@ -108,14 +108,14 @@ const myChart = require('echarts-gl/dist/echarts-gl.js')
             center : ['75%', '50%'],
             roseType : 'area',
             data:[
-                {value:10, name:'rose1'},
-                {value:5, name:'rose2'},
-                {value:15, name:'rose3'},
-                {value:25, name:'rose4'},
-                {value:20, name:'rose5'},
-                {value:35, name:'rose6'},
-                {value:30, name:'rose7'},
-                {value:40, name:'rose8'}
+                {value:10, name:'mysql'},
+                {value:5, name:'test'},
+                {value:15, name:'inception'},
+                {value:25, name:'slow'},
+                {value:20, name:'performance_schema'},
+                {value:35, name:'sys'},
+                {value:30, name:'information_schema'},
+                {value:40, name:'zabbix'}
             ]
         }
     ]
