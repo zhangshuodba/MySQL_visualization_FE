@@ -44,13 +44,13 @@ npm run build
 ## 效果展示
 
 - 登陆页
-![image](https://github.com/zhangshuodba/MySQL_visualization_FE/tree/master/src/images/login.png)
+![image](https://raw.githubusercontent.com/zhangshuodba/MySQL_visualization_FE/master/src/images/login.png)
 
 - 会话页
-![image](https://github.com/zhangshuodba/MySQL_visualization_FE/tree/master/src/images/session.png)
+![image](https://raw.githubusercontent.com/zhangshuodba/MySQL_visualization_FE/master/src/images/session.png)
 
 - 数据展示页
-![image](https://github.com/zhangshuodba/MySQL_visualization_FE/tree/master/src/images/dbspace.png)
+![image](https://raw.githubusercontent.com/zhangshuodba/MySQL_visualization_FE/master/src/images/dbspace.png)
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
