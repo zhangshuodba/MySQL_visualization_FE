@@ -8,6 +8,10 @@
 
 `注：基于iView-Admin模板开发，去除了所有拓展功能，只使用了基础框架。`
 
+## 技术栈
+
+vue2 + vuex + vue-router + webpack + ES6 + iview + echarts
+
 ## Install
 ```bush
 npm install
