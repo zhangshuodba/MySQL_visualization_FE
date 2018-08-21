@@ -49,6 +49,9 @@ npm run build
 - 会话页
 ![image](https://raw.githubusercontent.com/zhangshuodba/MySQL_visualization_FE/master/src/images/session.png)
 
+- 单页
+![image](https://raw.githubusercontent.com/zhangshuodba/MySQL_visualization_FE/master/src/images/sql.png)
+
 - 数据展示页
 ![image](https://raw.githubusercontent.com/zhangshuodba/MySQL_visualization_FE/master/src/images/dbspace.png)
 
